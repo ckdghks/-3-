@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-struct movie{
-  char name[20];
-  int stars;
-};
-
 int main() {
-  movie titles[3] = { {"명량", 1}, {"부산역", 2}, {"국제시장", 3} };
-  for(int i=0; i<3; i++)
-    cout << titles[i].name << "." << titles[i].stars << endl;  
+  int i, j, k=0;
+  for( i=0; i<2; i++ ) {
+    for( j=1; j<3; j++ ) {
+      if( k==0 ) break;
+      cout << "안녕하세요?\n";
+    } // for(j)
+    cout << "i=" << i << "j=" << j << endl; 
+  } // for(i)
 }

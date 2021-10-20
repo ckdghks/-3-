@@ -7,7 +7,7 @@ int main() {
   int *p = &a;
   cout << " *p = " << *p << endl;
 
-  *p = 789;
+  *p = 789; //참조
   cout << " a= " << a << endl;
   cout << " *p = " << *p << endl;
 }
